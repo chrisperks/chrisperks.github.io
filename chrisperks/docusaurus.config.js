@@ -2,7 +2,7 @@ module.exports = {
   title: 'Chris Site',
   tagline: 'The tagline of my site',
   url: 'https://chrisperks.github.io',
-  baseUrl: '/chrisperks./',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
