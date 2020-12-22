@@ -16,36 +16,26 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          to: 'pages',
-          label: 'Pages',
-          docId: 'doc1',
-          position: 'left',
-        },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Community',
+          title: 'My Links',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/christofr/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Github',
+              href: 'https://github.com/christofur',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Chris Perks. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -54,8 +44,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          path: 'pages',
-          routeBasePath: 'pages',
+          path: 'docs',
+          routeBasePath: '/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
