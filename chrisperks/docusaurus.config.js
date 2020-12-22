@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Chris Site',
-  tagline: 'The tagline of my site',
+  title: 'Chris Perks',
+  tagline: 'Building software',
   url: 'https://chrisperks.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -10,16 +10,16 @@ module.exports = {
   projectName: 'chrisperks.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Chris Perks',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          to: 'pages',
+          label: 'Pages',
+          docId: 'doc1',
           position: 'left',
         },
       ],
@@ -27,19 +27,6 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
         {
           title: 'Community',
           items: [
@@ -67,6 +54,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          path: 'pages',
+          routeBasePath: 'pages',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
