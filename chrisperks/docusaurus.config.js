@@ -35,7 +35,10 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Chris Perks. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} Chris Perks`,
+    },
+    prism: {
+      additionalLanguages: ['csharp'],
     },
   },
   presets: [
