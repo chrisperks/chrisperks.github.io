@@ -4,7 +4,17 @@ module.exports = {
     " 2021": [
         'sitecore_sustainability_benefits'
       ],
+    " 2020": [
+      'search_engine_not_database'
+    ],
+    " 2019": [
+        'custom_solr_index'
+      ],
     " 2018": [
+        'xconnect_error', 
+        'xconnect_local_machine',
+        'slow_renderings',
+        'solr_highlights',
         'partial_view_not_found',
         'contentsearch_quirks',
         '2018_solr_error',
