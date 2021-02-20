@@ -38,7 +38,7 @@ module.exports = {
       copyright: `© ${new Date().getFullYear()} Chris Perks`,
     },
     prism: {
-      additionalLanguages: ['csharp'],
+      additionalLanguages: ['csharp', 'powershell'],
     },
   },
   presets: [

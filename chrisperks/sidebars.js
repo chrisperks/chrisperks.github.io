@@ -2,6 +2,7 @@ module.exports = {
   someSidebar: {
     "_": ['home'],
     " 2021": [
+        'sitecore_deploy_to_kubernetes_eks',
         'sitecore_sustainability_benefits'
       ],
     " 2020": [

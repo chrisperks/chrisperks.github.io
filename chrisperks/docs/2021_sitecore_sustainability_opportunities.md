@@ -3,6 +3,8 @@ id: sitecore_sustainability_benefits
 title: Sustainable Sitecore - reducing CO2 emissions in your Sitecore stack 
 ---
 
+`Feb 2021`
+
 #### Azure deployment topologies and Docker-enabled Sitecore 10 present great opportunities for improving the green credentials of your Sitecore installs
 
 ### How green is your Sitecore? 
