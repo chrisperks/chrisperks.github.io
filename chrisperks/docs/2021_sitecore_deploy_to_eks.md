@@ -108,7 +108,7 @@ choco install kubernetes-helm
 Now we can begin the action! Creating a Kubernetes cluster sounds complicated at first, but eksctl does a great job of managing the underlying components and gives you a very simple API to work with: 
 
 ```powershell
-eksctl create cluster –name sitecore-10-cluster 
+eksctl create cluster --name sitecore-10-cluster 
 ```
 
 :::tip

@@ -8,7 +8,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'chrisperks', // Usually your GitHub org/user name.
   projectName: 'chrisperks.github.io', // Usually your repo name.
-  plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
     navbar: {
       title: 'Chris Perks',
