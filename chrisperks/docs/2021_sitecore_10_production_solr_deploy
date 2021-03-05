@@ -1,0 +1,17 @@
+---
+id: sitecore_10_production_solr_deploys
+title: Production Sitecore 10 AWS Solr deploys
+---
+
+`March 2021`
+
+
+Why not deploy Solr in a container?
+What options do we have for running Solr on AWS?
+How can we set one up?
+
+What are the production deployment considerations? 
+https://lucene.apache.org/solr/guide/8_0/aws-solrcloud-tutorial.html
+https://lucene.apache.org/solr/guide/8_0/taking-solr-to-production.html#taking-solr-to-production
+
+https://bitnami.com/stack/solr/cloud/aws

@@ -2,6 +2,7 @@ module.exports = {
   someSidebar: {
     "_": ['home'],
     " 2021": [
+        'sitecore_10_production_aws_deploys',
         'load_sitecore_yaml_into_terraform',
         'sitecore_deploy_to_kubernetes_eks',
         'sitecore_sustainability_benefits'
