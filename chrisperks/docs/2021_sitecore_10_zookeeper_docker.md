@@ -186,7 +186,7 @@ Creating sitecore-xp0_traefik_1                ... done
 
 ### Check the status of your SolrCloud 
 
-Navigate to the Solr UI at http://localhost:8984/solr/#/. First, check `Cloud > ZK Status` to make sure ZooKeeper is happy. 
+Navigate to the Solr UI at `http://localhost:8984/solr/#/`. First, check `Cloud > ZK Status` to make sure ZooKeeper is happy. 
 
 ![img](../static/img/2021/2021_sitecore_docker_zookeeper_1.png)
 
