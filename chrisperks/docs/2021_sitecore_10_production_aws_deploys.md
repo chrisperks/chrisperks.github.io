@@ -12,7 +12,7 @@ In an out-of-the-box Sitecore 10 Kubernetes install, we have one or more core no
 The next step in readying a Kubernetes-powered AWS EKS Sitecore 10 deployment for deployment is moving the data services (Solr, MS SQL) outside of the Kubernetes cluster. 
 
 :::info
-In this blog post, look at how to separate our Sitecore 10 data services (SQL Server) from our main EKS cluster using separate VPCs
+In this blog post, we look at how to separate our Sitecore 10 data services (SQL Server) from our main EKS cluster using separate VPCs
 :::
 
 While the Kubernetes product [develops a capability](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/) for running stateful workloads, it is still best practice to keep Kubernetes for your stateless compute tasks, and run databases outside of the cluster. 

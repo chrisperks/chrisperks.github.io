@@ -38,7 +38,7 @@ module.exports = {
       copyright: `© ${new Date().getFullYear()} Chris Perks`,
     },
     prism: {
-      additionalLanguages: ['csharp', 'powershell'],
+      additionalLanguages: ['csharp', 'powershell', 'docker', 'bash'],
     },
     googleAnalytics: {
       trackingID: 'UA-190277111-1',
