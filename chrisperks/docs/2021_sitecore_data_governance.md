@@ -1,6 +1,6 @@
 ---
 id: sitecore_data_governance
-title: Sitecore and Data Governance - the big picture
+title: Sitecore and Data Governance - an introduction
 ---
 
 `March 2021`
